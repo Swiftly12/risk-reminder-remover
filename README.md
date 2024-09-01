@@ -14,7 +14,7 @@ The popup that appears from branded item sellers and can't be clicked away:
 
 # How to install?
 + Get the latest release from [releases](https://github.com/Swiftly12/risk-reminder-remover/releases)
-+ Go to chrome://extensions/ and enable the developer mode:
++ Go to chrome://extensions/ and enable the developer mode (You need to use Chrome):
 ![263491633-a78b6a28-7d0c-4d3e-8855-bb23e7484374](https://github.com/user-attachments/assets/dfefb93c-8010-43f7-a9ae-860aa2c23cc7)
 + And select the installed folder (The zip file must be extracted).
 + You can deactivate and activate it under Extensions:
