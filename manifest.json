@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Risk Reminder Remover",
+  "version": "1.2",
+  "description": "Removes the annoying Risk Reminder HTML block on cnfans and hoobuy automatically.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.cnfans.com/*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["https://*.hoobuy.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "author": "Tiktok: TopAmi"
+}
