@@ -21,3 +21,6 @@ The popup that appears from branded item sellers and can't be clicked away:
   
   ![Screenshot 2024-09-01 170439](https://github.com/user-attachments/assets/18b13ef8-cc79-49b6-86ac-8ee6dae70a71)
 + Enjoy
+
+# Bugs
+Discord: xswiftly
